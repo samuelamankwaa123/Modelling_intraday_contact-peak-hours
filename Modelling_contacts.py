@@ -28,6 +28,7 @@ plt.xticks(range(0,25,2)); plt.xlabel("Hour of day"); plt.ylabel("Level")
 plt.title("Intraday pattern with specified peak hours")
 plt.legend(); plt.grid(True, alpha=.3); plt.tight_layout(); plt.show()
 
-# Save for GitHub artifacts if you like
+# Save 
 df.to_csv("intraday_pattern.csv", index=False)
+
 
